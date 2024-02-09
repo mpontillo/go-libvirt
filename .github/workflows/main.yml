@@ -2,9 +2,10 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+#  push:
+#    branches: [ master ]
+#  pull_request:
+#    branches: [ master ]
 
   # allow manual execution from the web interface
   workflow_dispatch:
